@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>Chirag social</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+      <nav>
+            <div class="container">
+                <h2 class="logo">Spacepark</h2>
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
+                    <input
+                    type="search"
+                    placeholder="Search for creators, inspirations and projects"
+                    />
+                </div>
+                <div class="create">
+                    <label class="btn btn-primary" for="create-post">Create</label>
+                    <div class="profile-pic">
+                        <img src="blackpink2.jpg" alt="pic 1" />
+                    </div>
+                </div>
+            </div>
+      </nav>
+
+      <main>
+          <div class="container">
+              <div class="left">
+                  <div class="profile">
+                      <div class="profile-pic">
+                        <img src="blackpink2.jpg">
+                      </div>
+                      
+                      <div class="handle">
+                          <h4>Alexandra Borke</h4>
+                          <p class="text-muted">@alexsunshine</p>
+                      </div>
+                  </div>
+                  <div class="sidebar">
+                    <a class="menu-item active">
+                      <span><i class="uil uil-home"></i></span> <h3>Home</h3>
+                    </a>
+                    
+                    <a class="menu-item" id="notifications">
+                      <span><i class="uil uil-user-circle"><small class="notification-count">8</small></i></span> <h3>people</h3>
+                      <div class="notifications-popup">
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="./images/profile-10.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Abigail Willey</b> accepted your friend request
+                                  <small class="text-muted">2 DAYS AGO</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="./images/profile-11.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Varun Nair</b> commented on your post
+                                  <small class="text-muted">1 HOUR AGO</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="./images/profile-12.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Marry Opmong</b> and 210 other liked your post
+                                  <small class="text-muted">4 MINUTES AGO</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="./images/profile-13.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Wilson Fisk</b> started following you
+                                  <small class="text-muted"> 11 HOURS AGO</small>
+                              </div>
+                          </div>
+                          
+                      </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <i class="uil uil-image"></i></span><h3>Photos</h3>
+                    </a>
+                    
+                    <a class="menu-item ">
+                      <span><i class="uil uil-calender"></i></span> <h3>News feed</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-user"></i></span> <h3>Profile</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-setting"></i></span> <h3>Settings</h3>
+                    </a>
+                    
+                    <label class="btn btn-primary" for="create-post">Create Post</label>
+
+                    
+                </div>
+                <h4>Invitations</h4>
+                <div class="sto">
+                    <div>
+                        <img src="./blackpink2.jpg" alt="">
+                    </div>
+                    
+                    
+                </div>
+                <div class="actio">
+                    <button class="btn btn-primary">Accept Invitation</button>
+                    
+                </div>
+                
+            
+              </div>
+              
+
+
+              <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./blackpink2.jpg" alt="">
+                        </div>
+                        <p class="name">Add Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/profile-9.jpg" alt="">
+                        </div>
+                        <p class="name">Sam Brown</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/profile-2.jpg" alt="">
+                        </div>
+                        <p class="name">Laura Fisher</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/profile-3.jpg" alt="">
+                        </div>
+                        <p class="name">Diana Voss</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/profile-4.jpg" alt="">
+                        </div>
+                        <p class="name">BTS</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/profile-5.jpg" alt="">
+                        </div>
+                        <p class="name">Goger Miller</p>
+                    </div>
+                </div>
+
+                <form class="create-post">
+                    <div class="profile-pic">
+                        <img src="blackpink2.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind Chirag?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="images/profile-14.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Black Pink</h3>
+                                 <small>South Korea, 15 MINUTES AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="./blackpink2.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             
+                         </div>
+
+                        
+
+                         <div class="caption">
+                             <p><b>Lisa Rose</b>hi we are blackpink . We are so happy to meet you again blinks.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 130 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="images/profile-15.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Lana Rose</h3>
+                                 <small>New York, 1 HOUR AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="images/feed-1.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             
+                         </div>
+
+                         <div class="liked-by">
+                             
+                             <p>Liked by <b>Enrest Achiever</b>snd <b>188 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Chirs Brown</b>Happy Birthday.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 40 comments</div>
+                    </div>
+                
+                    
+                </div>
+              </div>
+              
+              <div class="right">
+                <div class="friend-requests">
+                    <h4>Requests        <span class="notification">8</span></h4>
+                    
+                   
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="images/profile-20.jpg">
+                            </div>
+                            <div>
+                                <h5>Tyrell Barrows</h5>
+                                <p class="text-muted">wants to add you to friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="images/profile-5.jpg">
+                            </div>
+                            <div>
+                                <h5>Selena Gomez</h5>
+                                <p class="text-muted">wants to add you to friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                  <div class="messages">
+                    <div class="heading">
+                        <h4>Contacts      <span class="notificatio">68</span></h4>
+                        
+                    </div>
+  
+                    
+  
+                    
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/profile-17.jpg">
+                            
+                        </div>
+                        <div class="message-body">
+                            <h5>Amanda Miles   <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN></h5>
+                            
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/profile-18.jpg">
+                            
+                        </div>
+                        <div class="message-body">
+                            <h5>Melissa Byron  <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN></h5>
+                            
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/profile-15.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Ronald Bezos  <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN></h5>
+                            
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/profile-14.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Billy Rosewood  <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN> <span class="notificatio">2</span></h5>
+                            
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/profile-11.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Katty Monroe  <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN></h5>
+                            
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/profile-1.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Kurt Williamson <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN><span class="notificatio">7</span></h5>
+                            
+                        </div>
+                    </div> 
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/profile-11.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Sarah whitman  <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN></h5>
+                            
+                        </div>
+                    </div> 
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="images/profile-11.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Alena Vinlova  <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN></h5>
+                            
+                        </div>
+                    </div>                                                        
+                </div>
+                
+            
+              </div> 
+
+
+               
+              </div>
+          </div>
+      </main>
+
+        <script src="index.js"></script>
+  </body>
+  
+</html>
